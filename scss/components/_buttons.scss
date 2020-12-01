@@ -10,27 +10,39 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    &:hover {
-      background-color: $color-primary-light;
-    }
   }
   
   .default {
     background-color: $color-secondary;
+    &:hover {
+      background-color: lighten($color-secondary, 15%);
+    }
   }
   
   .error {
     background-color: $button-color-2;
+    &:hover {
+      background-color: lighten($button-color-2, 15%);
+    }
   }
   
   .info {
     background-color: $button-color-4;
+    &:hover {
+      background-color: lighten($button-color-4, 15%);
+    }
   }
   
   .success {
     background-color: $button-color-1;
+    &:hover {
+      background-color: lighten($button-color-1, 15%);
+    }
   }
   
   .warning {
     background-color: $button-color-3;
+    &:hover {
+      background-color: lighten($button-color-3, 15%);
+    }
   }
